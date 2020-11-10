@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1>PREDICTION RESULTS</h1>
+
+<h2><strong>Ticket Description :</strong></h2><h6>{{message}}</h6>
+<h3><strong>Ticket Type :</strong></h3><p>{{response}}</p>
+<h4><strong>Ticket Department :</strong></h4><p>{{response1}}</p>
+<h5><strong>Ticket Severity :</strong></h5><p>{{response2}}</p>
+<a class="btn btn-primary" href="/results" role="button">View DB</a>
+
+{% endblock content %}
